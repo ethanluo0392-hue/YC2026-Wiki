@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 node_modules
 .DS_Store
 .vscode
 *.cookies
+=======
+_build
+_static
+_templates
+.vscode
+>>>>>>> fe9b6f0b9dc1add2b8ac7fcc4a12137881eaed72
