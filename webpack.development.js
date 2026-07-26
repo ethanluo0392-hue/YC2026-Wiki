@@ -31,13 +31,8 @@ module.exports = merge(common, {
         ],
     },
     devServer: {
-        host: '0.0.0.0',
+        host: 'localhost',   
         port: 8080,
-        // 如果希望局域网其他设备访问，取消下面注释并替换 IP 为本机实际 IP
-        // public: '192.168.1.100:8080',
-        disableHostCheck: true,
-        contentBase: path.join(__dirname, 'dist'),
-        compress: true,
-        open: false,
+        open: true,          
     }
 });

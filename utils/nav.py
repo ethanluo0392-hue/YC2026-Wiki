@@ -6,7 +6,7 @@ import yaml
 
 def main():
 
-    with open('./src/nav.yml', 'r') as file:
+    with open('./src/nav.yml', 'r', encoding='utf-8') as file:
         nav = yaml.safe_load(file)
 
     nav_json = []
@@ -38,7 +38,7 @@ def main():
 
     # print(line)
 
-    with open('./src/templates/nav_list.pug', 'w') as file:
+    with open('./src/templates/nav_list.pug', 'w', encoding='utf-8') as file:
         file.write(line)
         file.write('\n\nmixin fakemixin()\n    p')
 
