@@ -1,7 +1,7 @@
 extends ../templates/contents.pug
 
 block headVars
-    - var title = "实验记录"
+    - var title = "Experience"
     - var tagline = "我们的实验过程与结果"
     - var requireMathJax = false
 
