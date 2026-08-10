@@ -1,0 +1,21 @@
+iGEM_official_team_name: 
+  type: str
+  help: Your official iGEM team name.
+iGEM_team_name: 
+  type: str
+  help: Optionally, enter a short name for your team.
+  default: "[[ iGEM_official_team_name ]]"
+year: 
+  type: int
+  help: iGEM competition year
+  default: 2020
+author:
+  type: str
+  help: Your name, just for filling in the metadata.
+email:
+  type: str
+  help: Your email address, also just for filling in the metadata.
+
+
+_subdirectory: src
+_templates_suffix: .jinja

@@ -1,0 +1,26 @@
+extends ../templates/contents.pug
+
+block headVars
+    - var title = "Experience"
+    - var tagline = "我们的实验过程与结果"
+    - var requireMathJax = true
+
+block article
+    :markdown-it(html)
+
+        # 这里写一级标题
+
+        这里是正文内容，可以直接写文字。支持 **粗体**、*斜体* 和 [超链接](https://example.com)。
+
+        ## 二级标题
+
+        有序列表：
+        1. 第一项
+        1. 第二项
+
+        表格示例：
+        | 列1 | 列2 |
+        | --- | --- |
+        | 数据 | 数据 |
+
+//- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
